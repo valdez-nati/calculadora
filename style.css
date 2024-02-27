@@ -19,7 +19,7 @@ body {
       0 10px 10px rgba(0,0,0,0.22);
 }
 
-.contenido h1{
+.contenido h1 {
     color: rgb(3, 3, 5);
 }
 
@@ -29,8 +29,10 @@ body {
     height: 100%;
     float: left;
 }
-
-#detalle {
+#item{
+    color: rgb(3, 3, 5);
+}
+#detalle  {
     background: #3734eb; 
     width: 50%;
     height: 100%;
@@ -80,7 +82,7 @@ button:active {
 }
 
 #error {
-    color: rgb(0, 255, 195);
+    color: #3734eb;
     font-weight: bold;
     display: none;
 }
