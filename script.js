@@ -23,6 +23,8 @@ boton.addEventListener("click",()=>{
         console.log(flujo)
     }else{
         document.getElementById("error").style.display = "block";
+        fluResultado.style.display = 'none';
+        manResultado.style.display = 'none';
         
     }
 
